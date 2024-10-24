@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="CSS/register.css">
+    <style>
+        body{
+            background-image: url("assets/background.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<form action="">
+    <legend>CREATE AN ACCOUNT!</legend><br>
+
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" placeholder="Enter first name" required="required"><br><br>
+
+    <label for="sname">Surname</label>
+    <input type="text" id="sname" placeholder="Enter surname" required="required"><br><br>
+
+    <label for="email">Email address</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required"><br><br>
+
+    <label for="pwd">Password</label>
+    <input type="Password" id="pwd" placeholder="Type your Password" required="required"><br><br>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="eg 0702154545" required="required"><br><br>
+
+    <label for="address">Home Address</label>
+    <input type="number" id="address" required="required"><br><br>
+
+    <label for="file">Choose a file</label>
+    <input type="file" id="file"><br><br>
+<!--    <&#45;&#45;!comment>ile type       <input type="file" accept=".jpg, .jpeg, .png" /></&#45;&#45;comment> <br><br>-->
+
+    <label for="nationality">Select Nationality:</label>
+    <select name="" id="nationality">
+        <option value="" disabled="disabled"> --choose one--</option>
+        <option value="">Dutch</option>
+        <option value="">German</option>
+        <option value="">Italian</option>
+        <option value="">kenyan</option>
+        <option value="">Ugandan</option>
+
+    </select>
+<br><br>
+
+<label>Choose Gender :</label><br>
+<input type="radio" id="male" name="option">
+<label for="male">Male</label><br><br>
+
+<input type="radio" id="female" name="option">
+<label for="female" >Female</label><br><br>
+
+<input type="radio" id="Other" name="option">
+<label for="Other">Other</label><br><br>
+
+<label > VChoose Your Favourite Football Team :</label><br>
+<input type="checkbox" id="arsenal">
+<label for="arsenal">Arsenal</label><br>
+
+<input type="checkbox" id="Chelsea">
+<label for="Chelsea">Chelsea</label><br>
+
+<input type="checkbox" id="Man U">
+<label for="Man U">Man United</label><br><br>
+
+
+<label for="message">Describe Yourself</label><br>
+<textarea name="" id="message" cols="50" rows="5" placeholder="Type Something Here.." maxlength="5"></textarea><br><br>
+
+
+<input type="Checkbox" id="terms">
+<label for="terms">I agree to terms and conditions.</label><br><br>
+
+<button type="submit">Register</button>
+
+
+
+</form>
+
+
+
+</body>
+</html>
